@@ -12,7 +12,7 @@ def ncount( n ) : # тестовая CPU-загружающая функция
     while n > 0 : n -= 1
 
 if __name__ == '__main__':
-    repnum = 10000000
+    repnum = 100000000
     thrnum = 2
     mode = 'stpm' # варианты запуска
 
