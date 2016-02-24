@@ -20,7 +20,7 @@ if __name__ == '__main__':
         opts, args = getopt.getopt( sys.argv[1:], "t:n:m:" )
     except getopt.GetoptError :
         print ( "недопустимая опция команды или её значение" )
-    
+
     for opt, arg in opts :
         if opt[ 1: ] == 't' : thrnum = int( arg )
         if opt[ 1: ] == 'n' : repnum = int( arg )
